@@ -10,7 +10,7 @@ from core import models
 
 class UserAdmin(BaseUserAdmin):
     """Define admin pages for users"""
-    #Order users by ID and display 'email' and 'name' fields only
+    # Order users by ID and display 'email' and 'name' fields only
     ordering = ['id']
     list_display = ['email', 'name']
     fieldsets = (
